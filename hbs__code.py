@@ -39,8 +39,8 @@ def bill():
               q10=int(input('quantity?'))
               b=input('y to more\n')
            lst=[q1,q2,q3,q4,q5,q6,q7,q8,q9,q10]
-           total=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10
-           print('total quantity is %d'%(total))
+           sum=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10
+           print('total quantity is %d'%(sum))
            total=15*lst[0]+25*lst[1]+20*lst[2]+39*lst[3]+59*lst[4]+79*lst[5]+69*lst[6]+99*lst[7]+199*lst[8]+299*lst[9]
            print('your total bill is %d'%(total))
     print('do you want to place order enter y to yes else n\n')
